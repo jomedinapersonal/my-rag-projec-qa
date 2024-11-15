@@ -141,7 +141,7 @@ module appService  'core/host/appservice.bicep'  = {
     }
   }
 }
-
+ 
 // output for post processing
  
 output AZURE_TENANT_ID string = tenant().tenantId
